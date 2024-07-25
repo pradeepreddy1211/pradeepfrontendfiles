@@ -1,0 +1,175 @@
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+.clearfix {
+    display: block;
+}
+        body{
+            background-color:thistle;
+        }
+        header{
+            background-color: white;
+            width: 100%;
+            padding: 15px 0px;
+            position: fixed;
+            margin: 0;
+            }
+         #sridhar{
+            margin-left:80px;   
+            display: inline-block;
+            margin-right: 20px;     
+        }
+        *{
+           margin: 0px;
+           padding:0px;
+        }
+        nav ul li{
+            display: inline-block;
+            margin-left: 40px;
+            margin-right: 20px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            text-transform: capitalize;
+            color: black;
+        }
+        nav{
+          display: inline-block;
+        }
+        header p{
+            margin-left: 100px;
+            padding: 10px;
+            background-color: #f40202e1;
+            border-radius: 20px;
+            display: inline-block;
+            color: white;
+        }
+        figure img{
+            margin-top: 5px;
+            margin-right:65px;
+            width: 300px;
+            padding-top: 60px;
+        }
+        figure{
+            float:right;
+        }
+        .supri{
+            font-family: cursive;
+            font-size: 30px;
+        }
+        div{
+            width: 500px;
+            float:left;
+            margin-top: 80px;
+            margin-left: 80px;
+        }
+        #supri{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .pradeep{
+             background-color: red;
+             border-radius: 20px;
+             padding: 10px;
+        }
+        .pradeep1{
+          margin-left: 40px;
+        }
+      .fa.fa-play-circle-o{
+        color: red;
+      }
+      #box{
+        width:250px;
+        height:300px;
+        background-color: white;
+        margin: 10px 20px;
+      }
+      #section2{
+        margin-left: 50px;
+      }
+      #box_heading{
+       padding: 10px 20px;
+       text-transform: capitalize;
+
+
+      }
+      #box:hover{
+        background-color: red;
+        color: white;
+        transition: linear;
+        transition-duration: 0.5s;
+        scale: 1.1;
+        box-shadow: 5px 5px 5px 5px black;
+        border: 2px solid white;
+
+      }
+      #sridhar1{
+        padding-left: 20px;
+        text-align: justify;
+        padding-right: 20px;
+      }
+      *,*:after,*:before{
+        box-sizing: border-box;
+      }
+      #babu{
+        color: black;
+        text-align: center;
+        display: block;
+        padding-top: 40px;
+      }
+      #sakhi{
+        text-align: center;
+        padding-left: 60px;
+        padding-right: 30px;
+      }
+      #babu1{
+        color: black;
+        text-align: center;
+        display: block;
+        padding-top: 40px;
+        }
+        #sakhi1{
+          text-align: center;
+          padding-left: 60px;
+          padding-right: 30px;
+
+          }
+          #babu2{
+            color: black;
+            text-align: center;
+            display: block;
+            padding-top: 40px;
+            }
+
+          #sakhi2{
+            text-align: center;
+            padding-left: 40px;
+            padding-right: 30px;
+            }
+            #para{
+              padding-left: 20px;
+              text-align: center;
+              padding-right: 20px;
+            }
+            #section2{
+              display: flex;
+              justify-content: space-around;
+            }
+            footer{
+              background-color: black;
+              margin-top: 20px;
+              width: 100%;
+              color: white;
+              display: flex;
+            }
+            #anand{
+              width: 23%;
+              text-align: center;
+            }
+          

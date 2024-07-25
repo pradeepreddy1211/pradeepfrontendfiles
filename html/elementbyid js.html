@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="sai">hi my name is saichandra</p>
+    <script>
+        document.getElementById("sai");/*example 1*/
+    </script><br>
+    <form name="form1">
+        Enter no:<input type="text" id="num" name="number"><br>
+        <input type="button" value="clickhere" onclick="Sai()">
+    </form>
+    <script>
+        function Sai(){
+            var num=document.getElementById("num").value;
+            alert(num*num*num);
+        }
+        Sai()
+    </script>
+</body>
+</html>

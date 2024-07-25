@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <input type="button" value="click1" onclick="msg()">
+   <script>
+    /*example1*/
+    function msg(){
+    var name1=prompt("enter first name");
+    var name2=prompt("enter second name");
+    alert("hi"+name1+"and"+name2);
+    }
+    msg()
+   </script><br>
+   <input type="button" value="click2" onclick="supri()">
+   <script>
+   /*example2*/
+   function supri(){
+   let name=Number(prompt(("enter the year of birth")));
+   let age=2024-name;
+   alert("your age is"+age);
+   }   
+   supri()
+   </script><br>
+   <input type="button" value="click3" onclick="pradeep()">
+   <script>
+   /*example3*/
+   function pradeep(){
+    let num1=Number(prompt("enter the first number"));
+    let num2=Number(prompt("enter the second number"));
+    let num3=num1+num2;
+    alert("sum is"+num3);
+   }
+   pradeep()
+   </script><br>
+   <input type="button" value="click4" onclick="amma()">
+   <script>
+    /*example 3*/
+    function amma(){
+    var factorial=1;
+    let num1=Number(prompt("enter the first number"));
+    let num2=Number(prompt("enter the second number"));
+    for(let i=num1;i>=num2;i--){
+        factorial=factorial*i;
+    }
+    alert("factorial is"+factorial);
+    }
+    amma()
+   </script>
+</body>
+</html>

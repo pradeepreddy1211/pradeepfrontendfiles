@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    var str1='act';
+    var str2='act';
+    count=0;
+    var a=str1.split('');
+    var b=str2.split('');
+    var c=a.sort();
+    var d=b.sort();
+    for(var i=0;i<c.length;i++){
+        if(c[i]==d[i]){
+            count++;
+        }
+}
+    if(count==d.length){
+  document.write("yes")
+  }
+  else
+  document.write("no")
+</script>
+</body>
+</html>

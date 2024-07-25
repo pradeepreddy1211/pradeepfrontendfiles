@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    /*browser object model is method(used to intract with the browser)*/
+    /*1.alert method it contains ok button*/
+    var str1="hi";
+    var str2="bye";
+    alert(str1+str2);
+    </script><br>
+    <script>
+    /*2.confirm method it contains ok and cancel button*/
+   function hi(){
+    var v=confirm("are you sure");
+    if(v==true){
+        alert("thanks for confirming");
+    }
+    else{
+        alert("cancel");
+    }
+   }
+   hi();
+    </script><br>
+    <script>
+    /*3.prompt user should enter values*/
+    function bye(){
+    var name=prompt("who are you");
+    alert("welcome"+name);
+    }
+    bye()
+    </script>
+    <input type="button" value="click1" onclick="bye()"/>
+    <script>
+    /*4.open method*/
+    function bolo(){
+    open("http://www.facebook.com");
+    }
+    bolo()
+    </script><br>
+    <input type="button" value="click2" onclick="bolo()"><br>
+   <script>/*5.settimeout method it is used to set the time for the output to display from the alert*/
+    setTimeout(function(){
+     alert("my name is pradeep");
+     },5000
+    )
+   </script>
+   <input type="button" value="click3" onclick="setTimeout()">
+   <script>
+    /*6.close method it is used to close the current window*/
+    function supri(){
+        close();
+    }
+    supri()
+   </script>
+   <input type="button" value="click4" onclick="supri()">
+</body>
+</html>

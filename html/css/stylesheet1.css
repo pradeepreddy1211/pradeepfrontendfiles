@@ -1,0 +1,22 @@
+h3{
+    color: blueviolet;
+    background-color: aquamarine;
+    text-align: center;
+    text-decoration: line-through;
+}
+p{
+    text-align: center;
+
+    text-transform: capitalize;
+    text-transform: lowercase;
+    text-transform: uppercase;
+
+    text-decoration: underline;
+    text-decoration: line-through;
+    text-decoration: overline;
+
+    /*font-size: 15px;*/
+    /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+    font-style: italic;
+
+}

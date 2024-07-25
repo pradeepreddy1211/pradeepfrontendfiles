@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="form1">
+        Enter no:<input type="text" id="num" name="number"><br><br>
+        <input type="button" value="clickhere" onclick="Sai()">
+    </form>
+    <script>
+        function Sai(){
+            var num=document.getElementById("num").value;
+            if(num.length==10){
+              alert("is 10 digit number");
+            }
+            else{
+             alert("is not 10 digit number");
+            }
+        }
+        Sai()
+    </script>
+</body>
+</html>

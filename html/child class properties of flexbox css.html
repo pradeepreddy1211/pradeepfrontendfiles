@@ -1,0 +1,51 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+ <title></title>  
+ <style type="text/css">  
+  .parent{  
+   border:5px solid green;  
+   width: 700px;  
+   height: 500px;  
+   display: flex;  
+   flex-wrap: wrap; 
+   flex-direction: row;  
+   
+  }  
+ 
+  .child{  
+   width: 100px;  
+   height: 100px;  
+   color: whitesmoke;  
+   font-size: 26px;  
+  }  
+  #c1{  
+   background-color: #ff0033; 
+   flex-grow: 2;   
+  }  
+  #c2{  
+   background-color: #05ffb0; 
+   
+   flex-shrink: 10px;
+   
+  }  
+  #c3{  
+   background-color: #ffdd57; 
+   flex-grow: 1;        
+  }  
+ </style>  
+</head>  
+  
+<body>  
+  
+<div class="parent">  
+  <div id="c1" class="child"> one </div>  
+  <div id="c2" class="child"> two </div>  
+  <div id="c3" class="child"> three </div>  
+   
+   
+   
+</div><!--parent-->  
+  
+</body>  
+</html>

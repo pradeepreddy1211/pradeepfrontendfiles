@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            width: 200px;
+            height: 100px;
+            background-color: springgreen;
+            transition-property: all;
+            /* transition-duration: 5s;
+            transition-delay: 1s;
+            transition-timing-function: ease-in;transition properties */
+            transition: all 5s 1s ease-in;/*short hand property*/
+        }
+        #box:hover{
+            background-color: red;
+
+            transform: rotate(45deg);/*to rotate the box*/
+            transform: rotatex(45deg);/*to decrease x-axis*/
+            transform: rotatey(45deg);/*to decrease y-axis*/
+
+            transform: scale(1.5);/* to increase the size of the box*/ 
+
+            transform: translate(100px,100px);/*x-axis y-axis the whole block will move in x and y axis direction*/
+            transform: translateX(10px);/*x-axis the whole block will move in x  axis direction*/
+            transform: translatey(10px);/*y-axis the whole block will move in y  axis direction*/
+            
+
+        transform: skew(20deg);/*rotate vertical and  horizontal*/
+        transform: skewx(10deg);/*rotate vertical*/
+        transform: skewy(10deg);/*rotate horizontal*/
+
+        
+
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+
+    </div>
+</body>
+</html>

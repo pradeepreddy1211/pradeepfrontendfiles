@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        clg1={city:"hyderabad",clg_name:"jntuh",strength:1000}
+        clg2={city:"chennai",clg_name:"Sathyabhama",strength:2000}
+        document.write(clg1.city+" "+clg1.clg_name+" "+clg1.strength+"<br>");
+        document.write(clg2.city+" "+clg2.clg_name+" "+clg2.strength);/*type 1 of object literal creation using property and value pair*/
+    </script><br>
+    <script>
+        var country1=new Object();
+        country1.name="India";
+        country1.nationalbird="peacock";
+        country1.population="3Billion"
+        document.write(country1.name+" "+country1.nationalbird+" "+country1.population+"<br>");
+
+        var country2=new Object();
+        country2.name="United states of america";
+        country2.nationalbird="American Bison";
+        country2.population="20Million"
+        document.write(country2.name+" "+country2.nationalbird+" "+country2.population);/*type 2 creating instance of object creation*/
+    </script><br>
+    <script>
+    function emp(id,name,salary){
+        this.id=id;
+        this.name=name;
+        this.salary=salary;}
+        e=new emp(103,"vimal",30000);
+        document.write(e.id+" "+e.name+" "+e.salary);/*type 3 by using an object constructor function*/
+    </script><br>
+    <script>
+        const supri={name:'john',id:24,subjects:{name1:'social',name2:'maths'}}/*nested object*/
+        document.write(supri.name+" "+supri.id+" "+supri.subjects.name1+" "+supri.subjects.name2);
+    </script>
+</body>
+</html>

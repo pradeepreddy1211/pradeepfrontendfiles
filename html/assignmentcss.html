@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    ul li:nth-child(2n+1){
+        background-color: lightgray;
+    }
+    ul li::before{
+        content: "hello";
+    }
+    p::first-letter{
+        font-size: 20px;
+    }
+    div ul li:last-child{
+        font-style: italic;
+    }
+</style>
+<body>
+    <div>
+    <ul>
+        <li>hi welcome1</li>
+        <li>hi welcome2</li>
+        <li>hi welcome3</li>
+    </ul>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta culpa enim laboriosam dolorum natus ipsam?</p>
+</body>
+</html>

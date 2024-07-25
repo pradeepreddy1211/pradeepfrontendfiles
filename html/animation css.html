@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+ <title></title> 
+ <style type="text/css"> 
+  #box{ 
+   width: 200px; 
+   height: 200px; 
+   background-color: greenyellow; 
+   border:5px solid blueviolet; 
+   animation-name: myZoom; 
+   position: relative;
+   animation-duration: 5s; 
+   animation-delay: 1s; 
+   animation-timing-function: ease-in; 
+   animation-direction: normal;
+   animation-iteration-count: infinite;  
+  } 
+  @keyframes myZoom{ 
+   0%{ 
+    top: 0; 
+    left: 0; 
+   } 
+   25%{ 
+    top: 0; 
+    left: 800px; 
+    background-color: yellow; 
+   } 
+   50%{ 
+    top: 500px; 
+    left: 400px; 
+   } 
+   75%{ 
+    top: 500px; 
+    left: 0; 
+    width: 100px; 
+   } 
+   100%{ 
+    top: 0; 
+    left: 0; 
+   } 
+  } 
+ </style> 
+</head> 
+<body> 
+ 
+ <div id="box"> 
+   
+ </div> 
+ 
+</body> 
+</html>

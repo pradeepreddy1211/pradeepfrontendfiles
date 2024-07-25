@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /*desendent selector*/
+    div p{
+        color: red
+    }
+    /*adjacent sibling selector*/
+    div+p{
+        color: blue;
+    }
+    /*child selector*/
+    div>p{
+        color: blueviolet;
+    }
+    /*general sibling selector*/
+    div~p{
+        color: chocolate;
+    }
+
+</style>
+<body>
+    <div>
+        <p>hello welcome1</p>
+        <p>hello welcome2</p>
+        <h1>hi welcome</h1>
+    </div>
+    <p>hi welcome 3</p>
+    <p>hi welcome 4</p>
+    
+</body>
+</html>

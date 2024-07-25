@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var arr=[1,2,3,4,5];
+        document.write(arr.length)/*length of an array*/
+    </script><br>
+    <script>
+        var array=["sai","pradeep","alexaa","samuel"]
+        for(i=0;i<array.length;i++)
+    {
+        document.write(array[i],"<br>");/*accessing all elements from an array*/
+    }
+    </script><br>
+    <script>
+    var elements_in_array=[1,2,3,4,5];
+    for(i=elements_in_array.length-1;i>=0;i--){
+        document.write(elements_in_array[i],"<br>");/*printing the numbers in reverse order*/
+    }
+    </script><br>
+    <script>
+      var array=[11,22,33,44,55,66,77];
+        for(i=0;i<array.length;i=i+2)
+    {
+        document.write(array[i],"<br>");/*accessing all elements from an  array of alternate element*/
+    }
+    </script><br>
+    <script>
+     var numbers=[1,2,3,4,5,6,7,8,9,10];
+     for(i=numbers.length-1;i>=0;i=i-2)
+     {
+        document.write(numbers[i],"<br>");/*accessing all elements from an  array of alternate element in reverse order*/
+     }
+    </script><br>
+    <script>
+     var numbers=[12,43,54,78,11,9,17];
+     var count1=0;
+     var count2=0;
+     for(var i=0;i<numbers.length;i++)
+     {
+        if(numbers[i]%2==0){
+            count1=count1+1;
+        }
+        else{
+            count2=count2+1;
+        }
+     }
+     document.write("even numbers"+"="+count1+"<br>");/*counting number of even numbers in an array*/
+     document.write("odd numbers"+"="+count2+"<br>");/*counting number of odd numbers in an array*/
+    </script><br>
+    <script>
+
+    </script>
+</body>
+</html>

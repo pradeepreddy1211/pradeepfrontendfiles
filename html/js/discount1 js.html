@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var originalq=1000;
+        var q=50;
+        var price=100;
+        var totalbd=q*price;
+        if(totalbd>originalq)
+        {
+         var afterdiscount=totalbd*0.1;
+         var totalamountad=totalbd-afterdiscount;
+         document.write("afterdiscount_total ="+totalamountad);
+        }
+        else
+        {
+         document.write(totalbd);
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

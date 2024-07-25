@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">     
+   var movies = ["RRR","KGF2","Acharya",20,8.9];
+   document.write(movies);/*printing all elements in an array*/
+    </script><br>
+    <script>
+      var movies = ["RRR","KGF2","Acharya",20,8.9];
+      movies[2]="auddii"
+      document.write(movies);/*printing all elements in an array and inserting an string in array usiing index value*/
+    </script><br>
+    <script type="text/javascript">     
+      var movies = ["RRR","KGF2","Acharya"]; 
+      movies[100] = "Pushpa";
+      document.write(movies);/*printing all elements in an array and inserting an string in array in 100th index position*/
+    </script><br>
+    <script type="text/javascript">     
+       var movies = ["RRR","KGF2","Acharya","pushpa"];
+       document.write(movies.length);/*printing the length of the array*/
+    </script><br>
+    <script type="text/javascript">     
+        var movies = ["RRR","KGF2","Acharya","pushpa"]; 
+        movies.push("Maharshi");
+        document.write(movies);/*adding the elements in last of an array*/
+    </script><br>
+    <script type="text/javascript">     
+        var movies = ["RRR","KGF2","Acharya","pushpa"];
+        movies.pop();/*Removed last Element from This Array*/
+        document.write(movies);
+    </script><br>
+    <script type="text/javascript">     
+        var movies = ["RRR","KGF2","Acharya","pushpa"];
+        movies.unshift('F3'); 
+        document.write(movies);/*unishift is to add an element in an array  in first of an array*/
+    </script><br>
+    <script type="text/javascript">     
+        var movies = ["RRR","KGF2","Acharya","pushpa"];
+        movies.shift();
+        document.write(movies);/*removing the first element in an array*/
+    </script><br>
+    <script type="text/javascript">
+        var movies = ["RRR","KGF2","Acharya","pushpa","RRR","Aarya"];
+        document.write(movies.slice(1,5));/*slicing means printing the elements from particular indexes we want*/                      
+    </script><br>
+    <script type="text/javascript">
+        var months = ["jan","feb","march","april","may"]
+        document.write(months.sort());/*sort means ascending or descending order of an array elements*/
+    </script><br>
+    <script type="text/javascript">
+        var numarray = [602,3020,1003,622,42,589,84];  
+        document.write(numarray.sort());/*sorting the numbers in an array*/
+    </script><br>
+    <script type="text/javascript">       
+      var movies = ["RRR","KGF2","Acharya","pushpa"];
+      document.write("Indexy Of Acaharya Is " + movies.indexOf("Acharya"));/*finding the index of an array element*/
+      </script>
+</body>
+</html>

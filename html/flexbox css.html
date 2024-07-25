@@ -1,0 +1,56 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+ <title></title> 
+ <style type="text/css"> 
+  .parent{ 
+   border:5px solid green; 
+   width: 700px; 
+   height: 500px; 
+   display: flex; 
+   flex-direction: column; /*main axis y*/
+   /* flex-direction: row-reverse;  
+   flex-direction: column; 
+   flex-direction: column-reverse;  */
+
+
+   justify-content: center;
+
+
+   align-items: center; /*cross axis x*/
+
+  } 
+  .child{ 
+   width: 100px; 
+   height: 100px; 
+   color: whitesmoke; 
+   font-size: 26px; 
+  } 
+  #c1{ 
+   background-color: #ff0033;  
+  } 
+  #c2{ 
+   background-color: #05ffb0;    
+  } 
+  #c3{ 
+   background-color: #ffdd57; 
+        
+  } 
+  #c4{ 
+   background-color: #ff0033;  
+  } 
+
+ </style> 
+</head> 
+ 
+<body> 
+ 
+<div class="parent"> 
+  <div id="c1" class="child"> one </div> 
+  <div id="c2" class="child"> two </div> 
+  <div id="c3" class="child"> three </div>
+  <div id="c4" class="child"> one </div> 
+</div><!--parent--> 
+ 
+</body> 
+</html>

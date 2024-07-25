@@ -1,0 +1,36 @@
+<script>/*1.document object model to find the no of vowels and consonants are present in the text*/
+    function anil(){
+    var a=document.sai.uname.value
+    var vowels = 0;
+    var consonants= 0;
+    for (var i = 0; i < a.length; i++){
+    if(a[i]=='a'||a[i]=='e'||a[i]=='i'||a[i]=='o'||a[i]=='u'){
+        vowels++;
+    }
+    else{
+        consonants++;
+    }
+    }
+    alert("hi"+" "+"vowels"+"="+vowels+" "+"consonants"+"="+consonants);
+     }
+    anil()
+</script>
+<form name="sai">
+    username:<input type="text" name="uname">
+    password:<input type="password" name="upswd">
+</form>
+<input type="button" value="clickhere" onclick="anil()">
+<script>
+    /*2.problem on addition of two numbers*/
+  function sai2()
+  {
+   var sum=Number(document.sai1.un1.value)+Number(document.sai1.un2.value);
+   alert("sum of 2 numbers"+"="+sum);
+  }
+  sai2()
+</script>
+<form name="sai1">
+    number1:<input type="text" name="un1">
+    number2:<input type="text" name="un2">
+</form>
+<input type="button" value="clickhere for sum" onclick="sai2()">

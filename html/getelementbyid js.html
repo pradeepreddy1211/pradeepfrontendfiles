@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="form1">
+        Enter a city:<input type="text" id="city" name="number"><br><br>
+        <input type="button" value="clickhere" onclick="Sai()">
+    </form>
+    <script>
+        function Sai(){
+            var num=document.getElementById("city").value;
+            var m=num
+        switch(m)
+        {
+            case m="Hyderabad":
+            alert("welcome to"+m)
+            break;
+
+            case m="Benguluru":
+            alert("welcome to"+m);
+            break;
+
+            case m="Chennai":
+            alert("welcome to"+m);
+            break;
+
+            default:
+            alert("thank you");
+        }
+        }
+        Sai()
+    </script>
+</body>
+</html>
